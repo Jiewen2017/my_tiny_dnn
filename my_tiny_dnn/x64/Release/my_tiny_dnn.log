@@ -1,0 +1,75 @@
+﻿  stdafx.cpp
+  my_tiny_dnn.cpp
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/optimizers/optimizer.h(162): warning C4244: '-=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/node.h(99): warning C4244: 'initializing': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/layers/power_layer.h(92): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/activations/selu_layer.h(97): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/activations/softsign_layer.h(26): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/activations/softsign_layer.h(38): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/util/parallel_for.h(194): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/optimizers/optimizer.h(163): note: see reference to function template instantiation 'void tiny_dnn::for_i<unsigned __int64,tiny_dnn::adamax::update::<lambda_67a23042fa2c82e77257ea9be4b99d39>>(bool,T,Func,::size_t)' being compiled
+          with
+          [
+              T=unsigned __int64,
+              Func=tiny_dnn::adamax::update::<lambda_67a23042fa2c82e77257ea9be4b99d39>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\xutility(2690): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\xutility(2704): note: see reference to function template instantiation 'void std::_Fill_unchecked1<_FwdIt,_Ty>(_FwdIt,_FwdIt,const _Ty &,std::false_type)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Ty=double
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\xutility(2712): note: see reference to function template instantiation 'void std::_Fill_unchecked<float*,_Ty>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _Ty=double,
+              _FwdIt=float *
+          ]
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/node.h(96): note: see reference to function template instantiation 'void std::fill<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,double>(_FwdIt,_FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Ty=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\random(3790): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\random(3725): note: see reference to function template instantiation 'float std::normal_distribution<T>::_Eval<_Engine>(_Engine &,const std::normal_distribution<T>::param_type &,bool)' being compiled
+          with
+          [
+              T=tiny_dnn::float_t,
+              _Engine=std::mt19937
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\random(3725): note: see reference to function template instantiation 'float std::normal_distribution<T>::_Eval<_Engine>(_Engine &,const std::normal_distribution<T>::param_type &,bool)' being compiled
+          with
+          [
+              T=tiny_dnn::float_t,
+              _Engine=std::mt19937
+          ]
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/util/random.h(55): note: see reference to function template instantiation 'float std::normal_distribution<T>::operator ()<std::mt19937>(_Engine &)' being compiled
+          with
+          [
+              T=tiny_dnn::float_t,
+              _Engine=std::mt19937
+          ]
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/util/random.h(55): note: see reference to function template instantiation 'float std::normal_distribution<T>::operator ()<std::mt19937>(_Engine &)' being compiled
+          with
+          [
+              T=tiny_dnn::float_t,
+              _Engine=std::mt19937
+          ]
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/util/random.h(78): note: see reference to function template instantiation 'float tiny_dnn::gaussian_rand<tiny_dnn::float_t>(T,T)' being compiled
+          with
+          [
+              T=tiny_dnn::float_t
+          ]
+  E:\workspaces\vs2017\my_tiny_dnn\tiny_dnn\tiny_dnn/util/weight_init.h(79): note: see reference to function template instantiation 'void tiny_dnn::gaussian_rand<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>>(Iter,Iter,tiny_dnn::float_t,tiny_dnn::float_t)' being compiled
+          with
+          [
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\include\random(3793): warning C4244: '=': conversion from 'double' to 'tiny_dnn::float_t', possible loss of data
+     Creating library E:\workspaces\vs2017\my_tiny_dnn\x64\Release\my_tiny_dnn.lib and object E:\workspaces\vs2017\my_tiny_dnn\x64\Release\my_tiny_dnn.exp
+  Generating code
+  All 20472 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  my_tiny_dnn.vcxproj -> E:\workspaces\vs2017\my_tiny_dnn\x64\Release\my_tiny_dnn.exe
