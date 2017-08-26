@@ -4,4 +4,4 @@
 ### 参考
 1. LeCun, Yann, et al. "Backpropagation applied to handwritten zip code recognition." Neural computation 1.4 (1989): 541-551.
 2. LeCun, Yann, et al. "Gradient-based learning applied to document recognition." Proceedings of the IEEE 86.11 (1998): 2278-2324.
-3. tiny-dnn主页：https://github.com/tiny-dnn/tiny-dnn
+3. tiny-dnn: https://github.com/tiny-dnn/tiny-dnn
